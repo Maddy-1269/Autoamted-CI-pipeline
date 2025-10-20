@@ -70,25 +70,47 @@ This project focuses on **automation, reliability, and repeatability**, which ar
 ## ⚙️ Project File Structure
 
 Automated-CI-Pipeline-Jenkins/
+
 │
+
 ├── README.md # Project overview & setup guide
+
 ├── Jenkinsfile # Jenkins Pipeline definition
+
 ├── src/ # Application source code
+
 │ └── app.js # Example Node.js main app
+
 │
+
 ├── tests/ # Unit test files
+
 │ └── test_app.js
+
 │
+
 ├── package.json # Dependency management file
+
 │
+
 ├── build/ # Jenkins-generated build artifacts
+
 │ └── artifact.zip
+
 │
+
 ├── docs/ # Supporting documentation and screenshots
+
 │ ├── pipeline_overview.png
+
 │ ├── build_success.png
+
 │ └── test_results.png
+
 │
+
 ├── .gitignore # Ignore node_modules, build outputs, etc.
+
 └── report.pdf # (Optional) Detailed report
+
 
