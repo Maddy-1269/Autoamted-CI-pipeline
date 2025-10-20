@@ -1,0 +1,31 @@
+{
+  "name": "automated-ci-pipeline-jenkins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest --runInBand",
+    "build": "mkdir -p build && cp -r src package*.json build/ && cd build && zip -r ../artifact.zip ."
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      ["jest-junit", { "outputDirectory": "test-results", "outputName": "junit.xml" }]
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "jest-junit": "^16.0.0"
+  }
+}
