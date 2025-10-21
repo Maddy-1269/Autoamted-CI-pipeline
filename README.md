@@ -112,9 +112,3 @@ Automated-CI-Pipeline-Jenkins/
 ├── .gitignore # Ignore node_modules, build outputs, etc.
 
 └── report.pdf # (Optional) Detailed report
-
-
-dewfrgthrefew  g
-
-
-
