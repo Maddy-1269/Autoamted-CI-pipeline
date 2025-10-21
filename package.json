@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node src/app.js",
     "test": "jest --runInBand",
-    "build": "mkdir -p build && cp -r src package*.json build/ && cd build && zip -r ../artifact.zip ."
+    "build": "mkdir -p build && cp -r src package*.json build/"
   },
   "jest": {
     "reporters": [
