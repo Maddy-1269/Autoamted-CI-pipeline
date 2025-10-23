@@ -239,11 +239,12 @@ Improved team productivity by automating code testing and packaging.
 
 Gained hands-on experience with Jenkins pipeline scripting and CI automation.
 
-> **Author:**  
-> **Manikanta Madisetty**
+**Author:**  
+**Manikanta Madisetty**
 DevOps & Associate Engineer
 
 ✅ Project Status: Completed Successfully
 🗓️ Last Updated: October 2025
 
 🏁 Outcome: Secure and fully functional Jenkins CI pipeline integrated with GitHub for automated testing, build, and artifact management.
+
