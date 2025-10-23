@@ -44,30 +44,55 @@ This automation ensures that the application is always in a **deploy-ready state
 ##  Project Structure
 Automated-CI-Pipeline-Jenkins/
 │
+
 ├── README.md # Completed project documentation
+
 ├── Jenkinsfile # Declarative Jenkins pipeline
+
 │
+
 ├── src/
+
 │ ├── app.js # Node.js application entry point
+
 │ ├── routes/ # Express route handlers
+
 │ ├── templates/ # Optional frontend templates
+
 │ └── static/ # Static assets (CSS/JS)
+
 │
+
 ├── tests/
+
 │ └── test_app.js # Jest unit test cases
+
 │
+
 ├── package.json # Project dependencies
+
 │
+
 ├── build/
+
 │ └── artifact.zip # Archived Jenkins build output
+
 │
+
 ├── docs/
+
 │ ├── pipeline_overview.png # Jenkins pipeline execution view
+
 │ ├── build_success.png # Successful build screenshot
+
 │ ├── test_results.png # Jest test results screenshot
+
 │ └── archived_artifacts.png # Artifact archived in Jenkins
+
 │
+
 ├── .gitignore # Ignored files (node_modules, build/)
+
 └── report.pdf # Optional detailed submission report
 
 ---
@@ -214,11 +239,11 @@ Improved team productivity by automating code testing and packaging.
 
 Gained hands-on experience with Jenkins pipeline scripting and CI automation.
 
-Author
-
-Manikanta Madisetty
+> **Author:**  
+> **Manikanta Madisetty**
 DevOps & Associate Engineer
 
 ✅ Project Status: Completed Successfully
 🗓️ Last Updated: October 2025
+
 🏁 Outcome: Secure and fully functional Jenkins CI pipeline integrated with GitHub for automated testing, build, and artifact management.
